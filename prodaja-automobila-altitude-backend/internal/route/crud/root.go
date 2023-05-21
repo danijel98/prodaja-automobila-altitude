@@ -11,7 +11,7 @@ func init() {
 	Cars = []model.Car{
 		{
 			Root: model.Root{
-				ID:     "e6a71212-14cf-467d-a2e4-903c94b7d685",
+				ID:     "f43f0fe0-56c1-4f58-851e-9cfe351af748",
 				Active: true,
 			},
 			Manufacturer: "Volkswagen",
@@ -76,7 +76,7 @@ func init() {
 		},
 		{
 			Root: model.Root{
-				ID:     "a82ecf01-ee0c-4db4-b3a5-ba6f11646fb3",
+				ID:     "52dbe14d-fc14-4145-872f-00598ca64d86",
 				Active: true,
 			},
 			Manufacturer: "Cupra",
@@ -89,7 +89,7 @@ func init() {
 		},
 		{
 			Root: model.Root{
-				ID:     "02c7bcfd-dec6-4716-bd14-aae1416a0f80",
+				ID:     "654c9f9e-8cbf-4b9c-9084-4c6381b8e854",
 				Active: true,
 			},
 			Manufacturer: "Tesla",
@@ -102,7 +102,7 @@ func init() {
 		},
 		{
 			Root: model.Root{
-				ID:     "cf9f7233-97cf-4827-946b-2c10689a4314",
+				ID:     "fb1234e8-1f95-46b4-a727-099f5572a2e6",
 				Active: true,
 			},
 			Manufacturer: "Renault",
@@ -128,7 +128,7 @@ func init() {
 		},
 		{
 			Root: model.Root{
-				ID:     "e6a71212-14cf-467d-a2e4-903c94b7d685",
+				ID:     "5986eb10-254b-493b-a5c6-ec3d06e77fd5",
 				Active: true,
 			},
 			Manufacturer: "Mercedes",
@@ -180,7 +180,7 @@ func init() {
 		},
 		{
 			Root: model.Root{
-				ID:     "834b125e-adc5-43f6-8fb4-e9ce24de8c80",
+				ID:     "145fefcb-319f-44d7-b0d8-79b7ff2a8b6d",
 				Active: true,
 			},
 			Manufacturer: "Volkswagen",

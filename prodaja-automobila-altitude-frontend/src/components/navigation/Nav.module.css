@@ -1,0 +1,108 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-size: cover;
+  align-items: flex-start;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  /* Use flex boxes to align li items */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+  /* Remove default padding from major browsers */
+  padding: 0;
+  /* Hide the default decorations for li items */
+  list-style: none !important;
+  margin: 0 !important;
+}
+
+.menuItem {
+  /* Display the elements in one line */
+  display: flex;
+  align-items: center;
+  width: 10vw;
+  justify-content: center;
+}
+
+.navLink {
+  text-decoration: none;
+  margin: 0 !important;
+  display: flex;
+  justify-content: center;
+  color: #828282 !important;
+  font-size: 1.5vw !important;
+  font-weight: bold;
+}
+
+.navLinkActive {
+  text-decoration: none;
+  margin: 0 !important;
+  display: flex;
+  justify-content: center;
+  color: #182360 !important;
+  font-size: 1.5vw !important;
+  font-weight: bold;
+}
+
+.menuSection1 {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuSection2 {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuSection3 {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.submitBtnContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 90%;
+}
+
+.btnSubmit {
+  border-radius: 0.5vw;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  padding: 1.25vh;
+  background-color: rgba(31, 41, 55, 1);
+}
+
+.btnSubmit:hover {
+  cursor: pointer;
+  background-color: rgba(31, 41, 55, 0.9);
+}
+
+.txtSubmit {
+  color: white;
+  font-size: 1.0364583333333333vw;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}

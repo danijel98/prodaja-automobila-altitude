@@ -82,6 +82,9 @@ func Login(ctx *gin.Context) {
 	})
 
 	ctx.Header(AccessTokenHeader, token)
+	ctx.Header("role", role)
+
+
 
 	log.Info("login finished")
 

@@ -1,0 +1,109 @@
+.CarDetails {
+  background: rgb(243 244 246);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.CarDetailsHeading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.CarDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 40vw;
+  min-width: 40vw;
+}
+
+.CarDetailsImage {
+  width: 75%;
+  max-width: 40vw;
+  min-width: 40vw;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.CarDetailsInfo {
+  width: 100%;
+}
+
+.CarDetailsItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.CarDetailsLabel {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  font-weight: bold;
+}
+
+.CarDetailsValue {
+  width: 65%;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background-color: transparent;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease;
+  font-weight: bold;
+
+}
+
+.CarDetailsValue:focus {
+  border-color: rgba(31, 41, 55, 1) !important;
+}
+
+.CarDetailsButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 40vw;
+  min-width: 40vw;
+}
+.CarDetailsBack {
+  border-radius: 0.5vw;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  padding: 1.25vh;
+  background-color: rgba(31, 41, 55, 1);
+  color: white;
+  font-weight: bold;
+}
+.CarDetailsDelete {
+  border-radius: 0.5vw;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  padding: 1.25vh;
+  background-color: rgb(187, 5, 20);
+  color: white;
+  font-weight: bold;
+}
+
+.CarDetailsUpdate {
+  border-radius: 0.5vw;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  padding: 1.25vh;
+  background-color: rgb(154, 163, 25);
+  color: white;
+  font-weight: bold;
+}
+
+.CarDetailsBackLink:hover {
+  text-decoration: none;
+}

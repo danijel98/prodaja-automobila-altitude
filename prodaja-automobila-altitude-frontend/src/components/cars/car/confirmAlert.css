@@ -1,0 +1,6 @@
+.react-confirm-alert-button-group button:first-child{
+  background:#182360 !important;
+}
+.react-confirm-alert-button-group button:nth-child(2){
+  background:#4c5b7a !important;
+}

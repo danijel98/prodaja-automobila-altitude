@@ -1,0 +1,9 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("../../assets/home.jpg");
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+}
